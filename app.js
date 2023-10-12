@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, {"content-Type" : "text/plain"});
-  res.write("향마루");
+  res.write("배고프다");
   res.end();
   // plain : 설명
   // 향마루를 설명
